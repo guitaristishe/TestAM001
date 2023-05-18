@@ -4,7 +4,6 @@ public class Main {
         System.out.println("Musteata Andrei");
         String name = "Andrei";
 
-
         String surname = "Musteata";
         String jobTitle = "QA Engineer";
         System.out.println("My name is " + name);
