@@ -8,7 +8,7 @@ public class HomeWork1 {
         String phrase = "I love java";
 
 //        а)Посчитать суколько букв в этой фразе
-        System.out.println("Количество букв: " + phrase.length());
+        System.out.println("Количество букв: " + (phrase.length()-2));
 
 //        б)Вывести букву под индексом 4
         System.out.println("Буква под индексом 4: " + phrase.charAt(4));
@@ -18,6 +18,7 @@ public class HomeWork1 {
 
 //        г) добавть в эту фразу and QA Automation (должно вывексти I love java nd QA Automation)
         System.out.println(phrase + " and QA Automation");
+        System.out.println(phrase.concat(" and QA Automation"));
 
 //        2)Проверить через boolean что фраза I love java типа String
         boolean isString = phrase instanceof String;
