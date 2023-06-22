@@ -9,14 +9,14 @@ public class MultidimentionalArrays {
             }
 
         System.out.println("============");
-//        for (int i = 0; i < nr.length; i++)
-//            for (int j = 0; j < nr[i].length; j++)
-//                if (nr[i][j] == 7) {
-//                    System.out.println(i);
-//                    System.out.println(j);
-//                } else {
-//                    System.out.println("No such element ");
-//                }
+        for (int i = 0; i < nr.length; i++)
+            for (int j = 0; j < nr[i].length; j++)
+                if (nr[i][j] == 7) {
+                    System.out.println(i);
+                    System.out.println(j);
+                } else {
+                    System.out.println("No such element ");
+                }
 
         int[] arr = {5, 6, 7, 8, 9};
         for (int x = 0; x < arr.length; x++)
